@@ -1,0 +1,41 @@
+
+.Splash {
+  max-width: 450px;
+  height: 700px;
+  margin: 3rem auto;
+  padding-top: 30px;
+
+
+  background-color: #0d0d0d;
+
+  .container{
+    width: 185px;
+    height: 430px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    background-color: #0d0d0d;
+
+    .imagem-splash{
+      width: 100%;
+      height: 100%;
+      background-image: url("../../assets/logo.svg");
+      background-repeat: no-repeat;
+      background-size: auto;
+    }
+
+    span{
+      color: #868686;
+      font-size: 12px;
+      align-items: center;
+    }
+
+  }
+
+}
+
+
+
