@@ -1,0 +1,42 @@
+.venda{
+  position: relative;
+  width: 380px;
+  height: 2.87rem;
+  margin: 1rem auto 0 auto;
+
+  background-color: #323232;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+      .venda-icon1{
+        padding: 0.5rem 0.5rem;
+        background: url("../../assets/icons/ticket.svg");
+
+        position: absolute;
+        left: 2.42rem;
+
+      }
+
+      span{
+        font-size: 0.81rem;
+        font-weight : 300;
+        color: #757575;
+        position: absolute;
+        left: 4.56rem;
+      }
+
+      .venda-icon2{
+        padding: 0.5rem 0.5rem;
+        background: url("../../assets/icons/qr.svg");
+
+        position: absolute;
+        right: 1.93rem;
+      }
+
+}

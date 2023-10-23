@@ -1,0 +1,131 @@
+
+.apresentacao{
+  position: relative;
+  width: 85%;
+  margin: 0rem auto 0 auto;
+
+
+  .apresentacao-texto{
+    position: relative;
+    left: 0.3rem;
+    color: #e6e6e6;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.51rem;
+
+    margin-bottom: 0.8rem;
+  }
+
+  .apresentacao-imagem > .gradient2{
+    width: 380px;
+    height: 8rem;
+    border-radius: 2rem;
+    background-color: black;
+    background-image: linear-gradient(to top,
+            rgb(14, 14, 14), transparent);
+
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+
+    opacity: 0.6;
+  }
+
+  .apresentacao-imagem{
+    background: url("../../assets/images/brunch.jpg");
+    filter: brightness(0.6);
+    background-position: center;
+    background-size: auto;
+    width: 378px;
+    height: 25vh;
+
+    border-radius: 1.87rem;
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .dashed-line{
+    background: url("../../assets/images/dash_line.png");
+    background-position: center;
+    background-size: auto;
+    width: 378px;
+    height: 30vh;
+    min-width: 24.3rem;
+    border-radius: 1.87rem;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    z-index: 10;
+
+  }
+
+  .apresentacao-label{
+    position: absolute;
+    left: 1.93rem;
+    top: 3.68rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    background-color: #FF9900;
+    color: #FFFFFF;
+
+    font-size: 0.8rem;
+
+
+  }
+
+
+
+  .apresentacao-info{
+    width: 70vw;
+    position: absolute;
+    left: 1.93rem;
+    bottom: 3.1rem;
+
+    .apresentacao-titulo{
+      color: #e6e6e6;
+      font-weight: 700;
+      font-size: 1.25rem;
+      line-height: 1.51rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .apresentacao-data{
+      color: #F29544;
+      font-weight: 400;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .apresentacao-morada{
+      color: #757575;
+      font-weight: 400;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+    }
+
+  }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

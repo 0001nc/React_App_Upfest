@@ -1,0 +1,46 @@
+
+.pessoal-vazio-Estatico-info{
+  width: 378px;
+  height: 4.62rem;
+  margin: 1rem auto 1rem auto ;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+  color: #e6e6e6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+
+  .pessoal-vazio-Estatico-imagem .imagem{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+    filter: brightness(0.8);
+    background-position: center;
+    background-size: cover;
+
+
+  }
+
+  .pessoal-vazio-Estatico-titulo > span{
+    color: #e6e6e6;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-right: 20px;
+    line-height: 1.52rem;
+    margin-bottom: 0.2rem;
+    opacity: 0.6;
+
+  }
+
+
+
+
+}
+

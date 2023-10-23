@@ -1,0 +1,142 @@
+
+
+
+  .imagem-logo{
+    width: 100px;
+    height: 128px;
+    margin: 150px auto 30px auto;
+    background-image: url("../../assets/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .erro-login {
+    border: 2px solid red;
+  }
+
+  .containerValidar{
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d0d0d;
+
+    .logo{
+      background: url("../../assets/logo_figma.svg");
+      width: 105px;
+      height: 128px;
+      background-size: auto;
+      background-repeat: no-repeat;
+
+    }
+
+    .formulario{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      label{
+        align-self: start;
+        margin-bottom: 0.5rem;
+      }
+    }
+
+
+    .log-in-nome{
+      width: 378px;
+      height: 2.93rem;
+      border-radius: 3rem;
+      margin-bottom: 1rem;
+
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      align-items: center;
+      background-color: #323232;
+
+
+      .log-in-nome-inputTexto{
+        color: #ff9900;
+        font-size: 0.81rem;
+        font-weight: 300;
+
+        position: absolute;
+        left: 2.2rem;
+        border: none;
+        background-color: #323232;
+        width: 289px;
+        height: 100%;
+        outline: none;
+      }
+
+    }
+
+    .log-in-email{
+      width: 378px;
+      height: 2.93rem;
+      border-radius: 3rem;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      align-items: center;
+      background-color: #323232;
+
+
+      .log-in-email-inputTexto{
+        color: #ff9900;
+        font-size: 0.81rem;
+        font-weight: 300;
+
+        position: absolute;
+        left: 2.2rem;
+        border: none;
+        background-color: #323232;
+        width: 289px;
+        height: 100%;
+        outline: none;
+      }
+
+    }
+
+    .botao{
+      margin-top: 10px;
+      background: url("../../assets/icons/log_in.svg");
+      width: 25px;
+      height: 25px;
+      border: none;
+      opacity: 0.6;
+
+      background-size: auto;
+      background-repeat: no-repeat;
+
+    }
+
+  }
+
+  .erro-mensagem{
+    margin-top: 1rem;
+    font-size: 12px;
+    align-items: center;
+    color: #F29544;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

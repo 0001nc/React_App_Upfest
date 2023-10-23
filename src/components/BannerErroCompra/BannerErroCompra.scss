@@ -1,0 +1,28 @@
+.banner-erro-compra{
+  width: 450px;
+  background-color: #b90202;
+  padding: 0.93rem;
+  position: absolute;
+  top: 48px;
+
+  z-index: 10;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 13px;
+
+  .icon-erro-compra{
+    width: 16px;
+    height: 16px;
+    background: url("../../assets/icons/heart_full.svg");
+    opacity: 0.8;
+
+    background-size: cover;
+  }
+
+}
+
+
+

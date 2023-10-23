@@ -1,0 +1,85 @@
+.pendente-info {
+  width: 378px;
+  margin: 1rem auto 0 auto;
+  position: relative;
+  height: 4.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .bilhete-box{
+    width: 70px;
+    height: 70px;
+    background: #323232;
+    border-radius: 2.81rem;
+    filter: brightness(0.5);
+
+    position: absolute;
+    left: 0;
+  }
+
+  .bilhete-icon-bilhetes{
+    width: 2.8rem;
+    height: 2.2rem;
+
+
+    background: url("../../assets/icons/card.svg");
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.9);
+
+
+    position: absolute;
+    left: 0.7rem;
+  }
+
+  .info{
+    position: absolute;
+    left: 5rem;
+    white-space: nowrap;
+
+
+
+    .pendente-titulo{
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 1.2rem;
+      margin-bottom: 1px;
+    }
+
+    .pendente-estado{
+
+      color: #ff7629;
+      font-size: 0.75rem;
+      line-height: 0.9rem;
+      margin-bottom: 1px;
+    }
+
+    .pendente-data{
+      color: #757575;
+      font-size: 0.75rem;
+      line-height: 0.98rem;
+      margin-bottom: 1px;
+    }
+
+  }
+
+  .pendente-label{
+    position: absolute;
+    right: 1.93rem;
+    bottom: 1.3rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.4rem;
+    background-color: #050505;
+    color: #dcdcdc;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,47 @@
+{
+  "eventos": [
+      {
+          "id": 1,
+          "designacao": "RFM Somnii 2024",
+          "imagem": "eventos/fdbbbe054040613cf89cdfcfd9ebf728.jpg",
+          "data": "2024-07-12T00:00:00.000Z",
+          "local": "Praia do Relógio, Figueira da Foz"
+      },
+      {
+          "id": 2,
+          "designacao": "Tomorrowland 2024",
+          "imagem": "eventos/89a3e78a9dfa30ce80b8ba6e50f8aeef.jpg",
+          "data": "2024-07-21T00:00:00.000Z",
+          "local": "Boom"
+      },
+      {
+          "id": 3,
+          "designacao": "Brunch Electronik Lisboa",
+          "imagem": "eventos/221e0ad8660f6eaae90a3ade5cbb661d.jpg",
+          "data": "2024-10-10T00:00:00.000Z",
+          "local": "Tapada da Ajuda"
+      }
+  ],
+
+  
+    "artistas": [
+        {
+            "id": 1,
+            "nome": "Bernardo b2b Johan",
+            "estilo": "Simbiótica minimal sedutiva",
+            "imagem": "artistas/f9f7e56c87d8bbc0f8c1715bffa021cf.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "999999999",
+            "estilo": "Hard techno sem dó nem piedade",
+            "imagem": "artistas/757b6e4831be7a65614a3efd586560e6.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Acid Pauli",
+            "estilo": "O viajante incansável da dance music",
+            "imagem": "artistas/962c9b54ef64016f413e7bc73c741039.jpg"
+        }
+    ]
+}

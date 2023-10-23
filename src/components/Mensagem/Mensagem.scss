@@ -1,0 +1,36 @@
+
+.mensagem{
+  width: 378px;
+  height: 2.93rem;
+  border-radius: 3rem;
+
+  margin: 0rem auto 1rem auto;
+
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  background-color: #323232;
+
+  .mensagem-imagem-pagamentos-imagem{
+    border-radius: 5rem;
+    background: url("../../assets/icons/info_circle.svg");
+    width: 1.5rem;
+    height: 1.5rem;
+
+    position: absolute;
+    left: 1.2rem;
+
+  }
+
+  .mensagem-titulo{
+    color: #ff9900;
+    font-size: 0.81rem;
+    font-weight: 300;
+
+    position: absolute;
+    left: 3.2rem;
+
+  }
+
+}

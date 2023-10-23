@@ -1,0 +1,234 @@
+
+/*
+
+.banner-artista-background{
+  width: 380px;
+  height: 6.5rem;
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  -webkit-filter: blur(4px);
+}
+*/
+
+.banner-artista-info{
+  position: relative;
+  width: 425px;
+  height: 7.5rem;
+  margin: -2rem 0 1rem 35px ;
+
+
+  background-color: #32323288;
+
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.banner-artista-imagem > .gradient2{
+  width: 425px;
+  height: 8rem;
+
+  background-color: black;
+  background-image: linear-gradient(to right, black, black,  #a66424);
+  opacity: 0.85;
+
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+
+}
+
+.banner-artista-imagem .imagem{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  filter: brightness(0.8);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+
+}
+
+.coracao2-box-banner{
+  position: absolute;
+  right: 2rem;
+  bottom: 1.4rem;
+  width: 1.9rem;
+  height: 2rem;
+  border-radius: 1rem;
+
+  background-color: #000000;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.coracao2-box:hover{
+  background-color: red;
+}
+
+.banner-artista-coracao{
+  position: absolute;
+  right: 2.43rem;
+  bottom: 1.9rem;
+  padding: 0.42rem 0.5rem;
+
+  color: #e6e6e6;
+  font-size: 0.8rem;
+
+  background: url("../../assets/icons/heart_open.svg");
+
+}
+
+.info{
+  position: absolute;
+  left: 5rem;
+  white-space: nowrap;
+
+  position: absolute;
+
+  .banner-artista-titulo-banner > span{
+    color: #e6e6e6;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.52rem;
+    margin-bottom: 0.2rem;
+
+    position: absolute;
+    top: -20px;
+    left: 2rem;
+
+
+  }
+
+  .banner-artista-data-banner{
+    color: #F29544;
+    font-size: 0.75rem;
+    line-height: 0.98rem;
+    margin-bottom: 0.2rem;
+    position: absolute;
+    top: 3px;
+    left: 2rem;
+  }
+
+  .banner-artista-morada-banner{
+    color: #757575;
+    font-size: 0.75rem;
+    line-height: 0.98rem;
+    margin-bottom: 0.2rem;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ORIGINAL */
+
+/*
+
+.banner-artista-info{
+  position: relative;
+  width: 425px;
+  height: 7.5rem;
+  margin: -2rem 0 1rem 35px ;
+
+  border: 1px solid yellow;
+
+  background-color: #32323288;
+
+  background-image: linear-gradient(to right, black, transparent);
+
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-artista-imagem .imagem{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  filter: brightness(0.8);
+  background-position: center;
+  background-size: cover;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.coracao2-box{
+  position: absolute;
+  right: 2rem;
+  bottom: 1.4rem;
+  width: 1.9rem;
+  height: 2rem;
+  border-radius: 1rem;
+
+  background-color: #000000;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.coracao2-box:hover{
+  background-color: red;
+}
+
+.banner-artista-coracao{
+  position: absolute;
+  right: 2.43rem;
+  bottom: 1.9rem;
+  padding: 0.42rem 0.5rem;
+
+  color: #e6e6e6;
+  font-size: 0.8rem;
+
+  background: url("../../assets/icons/heart_full.svg");
+
+}
+
+.info{
+  position: absolute;
+  left: 5rem;
+  white-space: nowrap;
+
+  .banner-artista-titulo > span{
+    color: #e6e6e6;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.52rem;
+    margin-bottom: 0.2rem;
+
+  }
+
+  .banner-artista-data{
+    color: #F29544;
+    font-size: 0.75rem;
+    line-height: 0.98rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .banner-artista-morada{
+    color: #757575;
+    font-size: 0.75rem;
+    line-height: 0.98rem;
+    margin-bottom: 0.2rem;
+  }
+
+}
+*/

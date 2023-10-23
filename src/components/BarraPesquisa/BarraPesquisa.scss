@@ -1,0 +1,41 @@
+
+.mensagem{
+  width: 378px;
+  height: 2.93rem;
+  border-radius: 3rem;
+
+  margin: 0rem auto 1rem auto;
+
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  background-color: #323232;
+
+  .mensagem-imagem-pagamentos{
+    border-radius: 5rem;
+    background: url("../../assets/icons/search.svg");
+    width: 1.3rem;
+    height: 1.3rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 1.2rem;
+
+  }
+
+  .inputTexto{
+    color: #ff9900;
+    font-size: 0.81rem;
+    font-weight: 300;
+
+    position: absolute;
+    left: 3.2rem;
+    border: none;
+    background-color: #323232;
+    width: 289px;
+    height: 100%;
+    outline: none;
+
+  }
+
+}

@@ -1,0 +1,21 @@
+.informacoes{
+  width: 378px;
+  display: flex;
+  flex-direction: column;
+
+  margin: 1rem auto 0 auto;
+
+  p{
+
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 1.21;
+    color: #757575;
+  }
+}
+
+.informacoes-titulo{
+  color: #e6e6e6;
+  font-size: 1.25rem;
+  font-weight: 500;
+}

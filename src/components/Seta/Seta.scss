@@ -1,0 +1,47 @@
+.seta{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+
+  position: relative;
+  left: 0px;
+
+}
+
+.seta-info{
+  position: relative;
+  width: 50px;
+  height: 2.78rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .bilhete-box{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #323232;
+    border-radius: 2.81rem;
+    filter: brightness(0.5);
+
+    position: absolute;
+    z-index: 1;
+
+
+  }
+
+  .bilhete-icon{
+    padding: 0.55rem 0.63rem;
+    background: url("../../assets/icons/arrow_right.svg");
+
+    filter: brightness(1);
+
+    position: absolute;
+    z-index: 2;
+
+
+
+  }
+}

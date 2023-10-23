@@ -1,0 +1,54 @@
+.menu-index{
+  width: 448px;
+  background-color: #0d0d0d;
+  padding: 0.93rem;
+
+  display: flex;
+  justify-content: space-evenly;
+
+
+  position: absolute;
+  top:690px;
+
+  z-index: 100;
+
+       /* MENU ACTIVE */
+    .link1{
+
+    }
+
+    .link3{
+        opacity: 0.8;
+    }
+
+
+  /* MENU HOVER */
+      .link1:hover{
+        filter: brightness(0.3);
+
+      }
+
+      .link2:hover{
+        filter: brightness(0.3);
+      }
+
+      .link2:hover{
+        filter: brightness(0.3);
+      }
+
+      .link3:hover{
+        filter: brightness(0.3);
+      }
+
+      .link4:hover{
+        filter: brightness(0.3);
+      }
+
+
+}
+
+.menu-background{
+  height: 5rem;
+  width: 85vw;
+  background-color:#0d0d0d;
+}

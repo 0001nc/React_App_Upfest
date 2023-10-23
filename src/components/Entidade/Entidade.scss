@@ -1,0 +1,132 @@
+.entidade{
+  width: 378px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+  position : relative;
+
+
+
+  .entidade-left{
+    position: relative;
+    width: 10rem;
+    height: 8.5rem;
+
+    border-radius: 1.81rem;
+
+    flex-grow: 1;
+
+  }
+
+  .entidade1-info{
+    position: relative;
+    width: 257px;
+    max-width: 270px;
+    height: 6.5rem;
+    background-color: #32323288;
+    border-radius: 1rem;
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    .info-entidade{
+
+      width: 15vw;
+      display: flex;
+      flex-direction: column;
+
+      .entidade1-titulo{
+        color: #E6e6e6;
+        font-weight: 700;
+        font-size: 0.81rem;
+        line-height: 1.52rem;
+
+
+        position: absolute;
+        left: 1.8rem;
+        bottom: 3.7rem;
+      }
+
+      .entidade1-status{
+        color: #E6e6e6;
+        font-weight: 700;
+        font-size: 0.81rem;
+        line-height: 0.98rem;
+
+        position: absolute;
+        left: 1.8rem;
+        bottom: 2.7rem;
+      }
+
+      .entidade1-data{
+        color: #E6e6e6;
+        font-weight: 700;
+        font-size: 0.81rem;
+        line-height: 0.98rem;
+
+
+        position: absolute;
+        left: 1.8rem;
+        bottom: 1.5rem;
+      }
+
+
+    }
+
+  }
+
+  .info-num{
+    width: 180px;
+    max-width: 180px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .num-titulo{
+    color: #757575;
+    font-weight: 400;
+    font-size: 0.81rem;
+    line-height: 1.52rem;
+    text-align: right;
+
+
+    position: absolute;
+    right: 2rem;
+    bottom: 3.7rem;
+
+  }
+
+  .num-status{
+    color: #757575;
+    font-weight: 400;
+    font-size: 0.81rem;
+    line-height: 0.98rem;
+    text-align: right;
+
+    position: absolute;
+    right: 2rem;
+    bottom: 2.7rem;
+
+
+  }
+
+  .num-data{
+    color: #757575;
+    font-weight: 300;
+    font-size: 0.81rem;
+    line-height: 0.98rem;
+    text-align: right;
+
+    position: absolute;
+    right: 2rem;
+    bottom: 1.5rem;
+  }
+
+}

@@ -1,0 +1,96 @@
+{
+  "festivais": [
+    {
+      "id" : 1,
+      "imagem": "/images/sonar_24.jpg",
+      "nome": "Sonar 2024",
+      "data": "sábado 30 set.",
+      "local": "Pavilhão Carlos Lopes",
+      "liked": true
+    },
+    {
+      "id" : 2,
+      "imagem": "/images/brunch.jpg",
+      "nome": "Brunch Electronik",
+      "data": "domingo 17 set.",
+      "local": "Pavilhão Carlos Lopes",
+      "liked": false
+    },
+    {
+      "id" : 3,
+      "imagem": "/images/somnii_24.jpg",
+      "nome": "RFM Somnii 2024",
+      "data": "sexta 14 jul.",
+      "local": "",
+      "liked": false
+    }
+  ],
+  "artistas": [
+    {
+      "id" : 4,
+      "imagem": "/images/amelie.jpg",
+      "nome": "Amelie Lens",
+      "liked": true
+    },
+    {
+      "id" : 5,
+      "imagem": "/images/timmy.jpg",
+      "nome": "Timmy Trumpet",
+      "liked": false
+    },
+    {
+      "id" : 5,
+      "imagem": "/images/artbat.jpg",
+      "nome": "Artbat",
+      "liked": true
+    },
+    {
+      "id" : 6,
+      "imagem": "/images/nto.jpg",
+      "nome": "N'to",
+      "liked": false
+    },
+    {
+      "id" : 7,
+      "imagem": "/images/nto.jpg",
+      "nome": "N'to",
+      "liked": false
+    },
+    {
+      "id" : 8,
+      "imagem": "/images/nto.jpg",
+      "nome": "N'to",
+      "liked": false
+    },
+    {
+      "id" : 9,
+      "imagem": "/images/nto.jpg",
+      "nome": "N'to",
+      "liked": false
+    },
+    {
+      "id" : 10,
+      "imagem": "/images/nto.jpg",
+      "nome": "N'to",
+      "liked": false
+    },
+    {
+      "id" : 11,
+      "imagem": "/images/nto.jpg",
+      "nome": "N'to",
+      "liked": false
+    },
+    {
+      "id" : 12,
+      "imagem": "/images/nto.jpg",
+      "nome": "N'to",
+      "liked": false
+    },
+    {
+      "id" : 13,
+      "imagem": "/images/nto.jpg",
+      "nome": "N'to",
+      "liked": false
+    }
+  ]
+}
